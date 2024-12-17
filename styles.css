@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+}
+
+/* Fix scrolling offset for all sections with anchors */
+html {
+    scroll-behavior: smooth; /* Optional: adds smooth scroll */
+}
+
+.section {
+    scroll-margin-top: 70px; /* Adjust this value to the height of the header */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #004080;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background: cornflowerblue;
+    color: #333;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: gray;
+    color: #fff;
+}
+
+/* Section Styles */
+.section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #004080;
+}
+
+.section img {
+    display: block;
+    max-width: 100%;
+    margin: 1rem auto;
+
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Course Card Styling */
+.course-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 40%; /* Reduce the box width */
+    max-width: 300px; /* Ensure the box doesn’t get too large on wide screens */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Images in the Courses Section */
+.course-card img {
+    max-width: 100%; /* Ensures the image fits within the container */
+    height: auto;    /* Maintains aspect ratio */
+    display: block;  /* Removes extra space around images */
+    margin: 10px auto; /* Centers the image within the card */
+}
+
+
+
+.course-card h3 {
+    margin-bottom: 0.5rem;
+    color: #004080;
+}
+
+.course-card p {
+    margin: 0;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.testimonial-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 45%; /* Set each card to occupy approximately 45% width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+.testimonial-card h4 {
+    margin-top: 1rem;
+    color: #004080;
+}
+/* Footer */
+footer {
+    background: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
