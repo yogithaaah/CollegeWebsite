@@ -1,3 +1,3 @@
 # CollegeWebsite
 
-[link](https://yogithaaah.github.io/CollegeWebsite/)
+[Website_link](https://yogithaaah.github.io/CollegeWebsite/)
